@@ -4,7 +4,7 @@ import Reminder from './Remainder'
 //functional component
 
 export default function RemainderList(props) {
-    const Reminders = props.Reminder || []
+    const Reminders = props.reminders || []
     return (
         <div>
             {Reminders.map((reminder, index) => {

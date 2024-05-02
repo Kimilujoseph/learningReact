@@ -6,7 +6,7 @@ export default function Inputform({ userInput, setUserInput }) {
     return (
         <form>
             <input value={reminderText} id="reminderText" type="text" placeholder="what do you want to do" />
-            <input value={dueDate} id="dueDate" type="dueDate" />
+            <input value={dueDate} id="dueDate" type="Date" />
             <button >submit</button>
         </form>
     )
